@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bethstilos</title>
+  <!--  Imagen de Favicon -->
+  <link rel="icon" href="img/beth_favi_02.png">
+
+  <!--  BOOSTRAP CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- BOOSTRAP JS-->
+  <script defer src="js/bootstrap.bundle.min.js"></script>
+
+  <!--  BOOSTRAP ICONOS CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <!-- ESTILOS CSS PROPIOS-->
+  <link rel="stylesheet" href="css/base.css" />
+  <script defer src="js/index.js"></script>
+
+</head>
+
+<body>
+  <!--  Header Navegación -->
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand container-img" href="inicio.html">
+            <img src="img/logo_beth_3.png" alt="Bethstilos">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="inicio.html"><strong>Inicio</strong> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html"><strong>Servicios</strong> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tienda.html"><strong>Tienda</strong> </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html"><strong>Contacto</strong> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html"><strong>Blog</strong> </a>
+                </li>
+                <!--
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                -->
+            </ul>
+        </div>
+        </div>
+    </nav>
+</header>
+
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Categoría</h1>
+          <p class="lead text-muted">Descripción muy corta de la categoría.</p>
+          
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+               <img class="card-img-top" src="img/otonno_01.jpg" alt="" height="225" role="img">
+
+              <div class="card-body">
+                <h2 class="card-title">Chaqueta de Cuero</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                </p>
+                  <p class="card-text h4 text-primary">$ 45,00</p>
+                <div class="d-flex justify-content-between align-items-center">
+                 
+                  <div class="btn-group">
+                    <a href="#" class="btn color-light btn-carrito">Detalles</a>
+                  </div>
+                  <a href="#" class="btn btn-primary"> Carrito </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <div class="container">
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-instagram"></i></a>
+
+          <!-- Youtube -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-youtube"></i></a>
+
+          <!-- Telegram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-telegram"></i></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Regístrate a nuestro newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example21" class="form-control" />
+                  <label class="form-label" for="form5Example21">Correo electrónico</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribirse
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+            eum harum corrupti dicta, aliquam sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Bethstilos</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+
+
+
+</body>
+
+</html>
